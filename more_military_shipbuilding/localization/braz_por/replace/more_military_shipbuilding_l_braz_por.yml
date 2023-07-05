@@ -1,0 +1,4 @@
+﻿l_braz_por:
+ pm_military_shipbuilding_steam:0 "$pm_no_secondary_vessels$"
+ pm_military_shipbuilding_steam_2:0 "$pm_military_shipbuilding_wooden$"
+ pm_military_shipbuilding_steam_3:0 "$pm_military_shipbuilding_wooden_2$"
