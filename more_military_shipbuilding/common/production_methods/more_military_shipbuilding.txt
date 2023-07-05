@@ -1,0 +1,70 @@
+﻿pm_no_military_shipbuilding = {
+	texture = "gfx/interface/icons/production_method_icons/no_military_shipbuilding.dds"
+}
+
+pm_military_shipbuilding_wooden = {
+	texture = "gfx/interface/icons/production_method_icons/military_shipbuilding_wooden.dds"
+	
+	unlocking_production_methods = {
+		pm_basic_shipbuilding
+		pm_complex_shipbuilding
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_clippers_add = -15
+			building_output_manowars_add = 15
+		}
+	}
+}
+
+pm_military_shipbuilding_wooden_2 = {
+	texture = "gfx/interface/icons/production_method_icons/military_shipbuilding_wooden_2.dds"
+	
+	unlocking_production_methods = {
+		pm_complex_shipbuilding
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_clippers_add = -25
+			building_output_manowars_add = 25
+		}
+	}
+}			
+
+pm_military_shipbuilding_steam = {
+	texture = "gfx/interface/icons/production_method_icons/military_shipbuilding_steam.dds"
+	
+	unlocking_production_methods = {
+		pm_metal_shipbuilding
+		pm_arc_welding_shipbuilding
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_steamers_add = -20
+			building_output_ironclads_add = 20
+		}
+	}
+}
+
+pm_military_shipbuilding_steam_2 = {
+	texture = "gfx/interface/icons/production_method_icons/military_shipbuilding_steam_2.dds"
+	
+	unlocking_production_methods = {
+		pm_metal_shipbuilding
+		pm_arc_welding_shipbuilding
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_steamers_add = -25
+			building_output_ironclads_add = 25
+		}
+	}
+}			
